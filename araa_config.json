@@ -1,0 +1,35 @@
+{
+    "sleep_minimum": 1,
+    "sleep_maximum": 12,
+    "options_mode": {
+        "spin_camera": true,
+        "jumps": true,
+        "clicking": true,
+        "move_around": false,
+        "writing": false,
+        "emotes": true,
+        "check_menu": true,
+        "chat_commands": true
+    },
+    "option_settings": {
+        "spin_camera": {
+            "minimum": 1,
+            "maximum": 12
+        },
+        "jumps": {
+            "minimum": 1,
+            "maximum": 24,
+            "interval": 1
+        },
+        "clicking": {
+            "minimum": 1,
+            "maximum": 24,
+            "interval": 1,
+            "duration": 0
+        },
+        "writing": {
+            "strings": "bcefghijklmnrtuvxyzBCEFGHIJKLMNRTUVXYZ0123456789",
+            "interval": 0.3
+        }
+    }
+}
